@@ -1,16 +1,16 @@
 def new_hash
-  # return an empty hash
+  Hash.new # this is autom'y returned. No need to write another line 
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+  dog_object = {:Species => "Rotweiller"} # this is autom'y returned. No need to write another line 
+  
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  developer = {:name => "Grace Hopper"} # this is autom'y returned. No need to write another line 
 end
 
-
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+  make_hash = {:id => number} # this is autom'y returned. No need to write another line 
 end
